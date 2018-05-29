@@ -13,6 +13,25 @@
 
     <a class="api a">a.html</a>
     <a class="api b">b.html</a>
-    
+
+    <a class="api a">a.html</a>
+    <a class="api b">b.html</a>
+    <script type="text/javascript">
+
+        document.querySelectorAll('.api').forEach(item=>{
+            item.addEventListener('click',(e)=>{
+                e.preventDefault();
+                let link = item.textContent;
+                window.history.pushState({name:'api'},link,link);
+            },false)
+        });
+        // 监听路由
+        window.addEventListener('popState',(e)=>{
+            console.log({
+                location:location.href,
+                state: e.state
+            })
+        },false)
+    </script>
   </body>
 </html>
