@@ -1,12 +1,15 @@
-npm <template lang="html">
-    <div :class="$style.home">
-        <h1>Home</h1>
-        <p>Word</p>
+<template lang="html">
+    <div>
+      <Header/>
     </div>
 </template>
 
 <script>
+import Header from '../public/header'
 export default {
+        components: {
+            Header
+        }
 }
 </script>
 
