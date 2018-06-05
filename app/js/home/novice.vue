@@ -7,7 +7,7 @@
                 <img src="//img12.360buyimg.com/jrpmobile/jfs/t10384/155/1759179594/9776/185bd062/59e5f0ebNec4cf494.png?width=100&height=100" alt="">
             </div>
             <div :class="$style.item">
-                <ul >
+                <ul>
                     <li>
                         <img src="//img12.360buyimg.com/jrpmobile/jfs/t4639/162/1782623297/60754/98ea03b4/58e60952N7fdb2b85.png?width=200&height=200" alt="">
                         <h4>领128元大礼包</h4>

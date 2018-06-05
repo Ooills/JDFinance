@@ -3,6 +3,7 @@
       <Header/>
       <Slider/>
       <Novice/>
+      <Fotter/>
     </div>
 </template>
 
@@ -10,11 +11,13 @@
     import Header from '../public/header'
     import Slider from './hsilder'
     import Novice from './novice'
+    import Fotter from '../public/footer'
     export default {
         components: {
             Header,
             Slider,
-            Novice
+            Novice,
+            Fotter
         }
     }
 </script>
